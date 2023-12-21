@@ -4,18 +4,17 @@ export default function Home() {
   const router = useRouter();
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-24 bg-blue-300">
-      <div className="p-4 my-auto space-y-6 text-center text-white bg-red-400">
-        <p className="text-lg font-bold ">nextjs and tailwind template!</p>
-        <TestComponent />
-        <div className="py-4 transition duration-300 hover:scale-110">
-          <a
-            onClick={() => router.push("./router-test")}
-            className="p-4 bg-green-500 rounded-lg cursor-pointer"
-          >
-            click here to test router
-          </a>
-        </div>
-      </div>
+      <label for="Toggle1" className="absolute top-5 right-5 inline-flex items-center space-x-4 cursor-pointer dark:text-gray-100">
+        <span>English</span>
+        <span className="relative">
+          <input id="Toggle1" type="checkbox" className="hidden peer" />
+          <div className="w-10 h-6 rounded-full shadow-inner dark:bg-gray-400 peer-checked:dark:bg-violet-400"></div>
+          <div className="absolute inset-y-0 left-0 w-4 h-4 m-1 rounded-full shadow peer-checked:right-0 peer-checked:left-auto dark:bg-gray-800"></div>
+        </span>
+        <span>Spanish</span>
+      </label>
+
+      
     </main>
   );
 }
