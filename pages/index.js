@@ -27,7 +27,7 @@ export default function Home() {
 
         <div class="w-full justify-around px-2 pt-6 sm:flex flex-row justify-center items-center px-6">
           <div id="tickets" class="flex flex-row justify-center items-center pt-8 sm:justify-end items-end order-last">
-            <img class="w-80 sm:w-96" src="/img/M_tickets.png" />
+            <img class="w-80 sm:w-96" src="/img/M_Tickets.png" />
           </div>
 
           <div class="sm:flex flex-col justify-start items-start pt-8 sm:w-80">
