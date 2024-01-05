@@ -66,7 +66,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div id="terms" class="left-6 w-full pl-4 pt-6">
+        <div id="terms" class="left-6 w-full pl-4 pt-6 bottom-2">
           <span class="font-verizonFont leading-none">No purchase necessary. Void outside of Nevada and where prohibited. Sweepstakes starts 1/22/2024 and ends 2/5/2024. Must be resident of NV, 18 years or older to enter. To enter, visit a participating Verizon retail store.  Limit ONE entry per person & per email address. Odds depend on # of eligible entries received. Approximate retail value of all prizes: $10,000. Click here for Official Rules and participating locations. Sponsor: Verizon Services Corp., One Verizon Way, Basking Ridge, NJ 07920.
           <br></br>
           <br></br>
