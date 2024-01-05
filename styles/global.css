@@ -15,20 +15,3 @@ body {
 body {
   min-height: 100vh;
 }
-
-/* @font-face {
-  font-family: VerizonFont;
-  src: url(/public/fonts/VerizonNHGeDS-Regular.ttf);
-}
-
-@font-face {
-  font-family: VerizonBold;
-  src: url(/public/fonts/VerizonNHGeDS-Bold.ttf);
-}
-
-
-h1 {
-  font-size: calc(1.6rem + 1.5vw);
-  font-family: VerizonBold;
-  color: white;
-} */
