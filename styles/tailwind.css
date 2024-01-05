@@ -64,6 +64,13 @@ p {
   line-height: 25px;
 }
 
+span {
+  color: #939393;
+  font-size: calc(4pt + 1.5vw);
+  font-family: VerizonFont;
+  font-weight: lighter;
+}
+
 .btn {
-  @apply p-4 w-48 font-bold text-black transition duration-300 ease-in-out rounded-full bg-white hover:scale-110;
+  @apply text-lg p-3 w-44 font-bold text-black transition duration-300 ease-in-out rounded-full bg-white hover:scale-110;
 }
