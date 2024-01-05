@@ -25,3 +25,45 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@import url(/public/fonts/VerizonNHGeDS-Regular.ttf);
+@import url(/public/fonts/VerizonNHGeDS-Bold.ttf);
+
+@font-face {
+  font-family: VerizonFont;
+  src: url(/public/fonts/VerizonNHGeDS-Regular.ttf);
+}
+
+@font-face {
+  font-family: VerizonBold;
+  src: url(/public/fonts/VerizonNHGeDS-Bold.ttf);
+}
+
+
+h1 {
+  font-size: calc(1.8rem + 1.5vw);
+  font-family: VerizonBold;
+  color: white;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+h2 {
+  font-size: calc(1rem + 1.5vw);
+  font-family: VerizonBold;
+  color: white;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+p {
+  font-size: calc(1rem + 1.5vw);
+  font-family: VerizonFont;
+  color: white;
+  font-weight: lighter;
+  line-height: 25px;
+}
+
+.btn {
+  @apply p-4 w-48 font-bold text-black transition duration-300 ease-in-out rounded-full bg-white hover:scale-110;
+}
