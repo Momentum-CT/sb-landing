@@ -16,8 +16,8 @@ export default function Home() {
           </div>
 
           <div id="hero" class="w-full">
-            <img class="pt-4 sm:hidden" src="/img/M_hero.png" />
-            <img class="hidden sm:flex flex-col flex w-screen" src="/img/D_hero.png" />
+            <img class="pt-4 sm:hidden" src="/img/M_Hero.png" />
+            <img class="hidden sm:flex flex-col flex w-screen" src="/img/D_Hero.png" />
           </div>
         </div>
 
