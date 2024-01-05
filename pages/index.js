@@ -2,73 +2,78 @@
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center min-h-screen px-4 bg-black">
+    <main className="flex flex-col items-center min-h-screen px-4 sm:px-0 bg-black">
         <title>Verizon Super Bowl LVIII</title>
         <meta property="og:title" content="Verizon Super Bowl LVIII" key="title" />
 
-        <div id="logo" class="absolute left-4 top-3 w-1/2">
+        <div id="logo" class="absolute left-4 top-3 w-1/2 md:w-1/4">
           <img src="/img/VZ_SB_Logo.png" />
         </div>
 
-        <div>
-          <div id="header" class="left-6 w-full pl-4 pt-20">
-            <h1 class="font-verizonBold">Want tickets to<br/>Super Bowl LVIII<br/>and other events?</h1>
+        <div class="pt-10">
+          <div id="header" class="left-6 w-full pl-4 pt-20 sm:w-1/2">
+            <h1 class="font-verizonBold ">Want tickets to Super Bowl LVIII and other events?</h1>
           </div>
 
-          <div id="hero">
-            <img class="w-full pt-4" src="/img/M_hero.png" />
-          </div>
-        </div>
-
-        <div class="w-full justify-between px-2 pt-6">
-          <div class="">
-            <h2 class="font-verizonBold">Here&#39;s how to get them</h2>
-          </div>
-
-          <div id="tickets" class="flex flex-col justify-center items-center pt-8">
-            <img class="w-80" src="/img/M_tickets.png" />
-          </div>
-
-          <div id="header2" class="pt-12">
-            <h1 class="font-verizonBold">Win tickets to<br/>Super Bowl LVIII.</h1>
-          </div>
-
-          <div class="pt-4">
-            <p class="font-verizonFont">Visit a participating Verizon retail<br/>location to enter to win 2 tickets<br/>to Super Bowl LVIII.</p>
-          </div>
-
-          <div className="pt-8">
-            <button
-              onClick={() => url("")}
-              className="relative btn"
-            >
-              Learn more
-            </button>
+          <div id="hero" class="w-full">
+            <img class="pt-4 sm:hidden" src="/img/M_hero.png" />
+            <img class="hidden sm:flex flex-col flex w-screen" src="/img/D_hero.png" />
           </div>
         </div>
 
-        <div>
-          <div id="sponsors" className="flex flex-wrap justify-center items-center w-full gap-x-10 gap-y-6 pt-16">
-            <img class="w-40 left-0" src="/img/M_VZ_Live.png" />
-            <img class="w-40 right-0" src="/img/M_Toyota.png" />
-            <img class="w-28" src="/img/M_OpNight.png" />
+        <div class="w-full px-2 pt-6">
+          <h2 class="font-verizonBold sm:text-center">Here&#39;s how to get them</h2>
+        </div>
+
+        <div class="w-full justify-around px-2 pt-6 sm:flex flex-row justify-center items-center px-6">
+          <div id="tickets" class="flex flex-row justify-center items-center pt-8 sm:justify-end items-end order-last">
+            <img class="w-80 sm:w-96" src="/img/M_tickets.png" />
           </div>
 
-          <div id="header3" class="w-full pl-4 pt-12">
-            <h1 class="font-verizonBold">Attend the biggest<br/>Super Bowl LVIII events. </h1>
+          <div class="sm:flex flex-col justify-start items-start pt-8 sm:w-80">
+            <div id="header2" class="pt-12">
+              <h1 class="font-verizonBold">Win tickets to Super Bowl LVIII.</h1>
+            </div>
+
+            <div class="pt-4">
+              <p class="font-verizonFont sm:text-md">Visit a participating Verizon retail location to enter to win 2 tickets to Super Bowl LVIII.</p>
+            </div>
+
+            <div className="pt-8">
+              <button
+                onClick={() => url("")}
+                className="relative btn"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex w-full justify-around px-2 pt-6 sm:flex flex-row justify-center items-center px-6">
+          <div id="sponsors" className="flex flex-wrap justify-center items-center w-full gap-x-8 gap-y-6 pt-16 sm:order-last w-96">
+            <img class="w-40 sm:w-44" src="/img/M_VZ_Live.png" />
+            <img class="w-40 sm:w-44" src="/img/M_Toyota.png" />
+            <img class="w-28 sm:w-32" src="/img/M_OpNight.png" />
           </div>
 
-          <div class="w-full pl-4 pt-6">
-            <p class="font-verizonFont">Visit a participating Verizon retail<br/>location and make a qualifying<br/>purchase to get tickets to NFL<br/>Opening Night&#44; Super Bowl<br/>Experience and the Verizon Lounge.</p>
-          </div>
+          <div class="sm:flex flex-col justify-start items-start pt-8 sm:w-80">
+            <div id="header3" class="w-full pt-12">
+              <h1 class="font-verizonBold">Attend the biggest Super Bowl LVIII events. </h1>
+            </div>
 
-          <div className="pl-4 pt-8">
-            <button
-              onClick={() => url("")}
-              className="relative btn"
-            >
-              Learn more
-            </button>
+            <div class="w-full pt-6">
+              <p class="font-verizonFont">Visit a participating Verizon retail location and make a qualifying purchase to get tickets to NFL Opening Night&#44; Super Bowl Experience and the Verizon Lounge.</p>
+            </div>
+
+            <div className="pt-8">
+              <button
+                onClick={() => url("")}
+                className="relative btn"
+              >
+                Learn more
+              </button>
+            </div>
           </div>
         </div>
 
