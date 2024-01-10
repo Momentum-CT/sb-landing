@@ -37,7 +37,7 @@ export default function Home() {
             </div>
 
             <div class="pt-4">
-              <p class="font-verizonFont sm:text-md">Visit a participating Verizon retail location to enter to win 2 tickets to Super Bowl LVIII.</p>
+              <h3 class="font-verizonFont sm:text-md">Visit a participating Verizon retail location to enter to win 2 tickets to Super Bowl LVIII.</h3>
             </div>
 
             <div className="pt-6">
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
 
             <div class="pt-4">
-              <p class="font-verizonFont sm:text-md">Visit a participating Verizon retail location and make a qualifying purchase to get tickets to NFL Opening Night&#44; Super Bowl Experience and the Verizon Lounge.</p>
+              <h3 class="font-verizonFont sm:text-md">Visit a participating Verizon retail location and make a qualifying purchase to get tickets to NFL Opening Night&#44; Super Bowl Experience and the Verizon Lounge.</h3>
             </div>
 
             <div className="pt-6">
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
 
             <div class="pt-4">
-              <p class="font-verizonFont">Visit a participating Verizon retail location and make a qualifying purchase to get tickets to NFL Opening Night&#44; Super Bowl Experience and the Verizon Lounge.</p>
+              <h3 class="font-verizonFont">Visit a participating Verizon retail location and make a qualifying purchase to get tickets to NFL Opening Night&#44; Super Bowl Experience and the Verizon Lounge.</h3>
             </div>
 
             <div className="pt-6">
@@ -107,14 +107,14 @@ export default function Home() {
           </div>
         </div>  */}
 
-        <div id="terms" class="tracking-tight left-6 w-full pl-4 pt-16 bottom-2">
-          <span class="font-verizonFont leading-none">No purchase necessary. Void outside of Nevada and where prohibited. Sweepstakes starts 1/22/2024 and ends 2/5/2024. Must be resident of NV&#44; 18 years or older to enter. To enter&#44; visit a participating Verizon retail store.  Limit ONE entry per person & per email address. Odds depend on # of eligible entries received. Approximate retail value of all prizes&#58; $10&#44;000. Click here for Official Rules and participating locations. Sponsor&#58; Verizon Services Corp.&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
+        <div id="terms" class="px-2 pt-16 bottom-2 sm:px-10">
+          <p class="font-verizonFont"><b>No purchase necessary. Void outside of Nevada and where prohibited.</b> Sweepstakes starts 1/22/2024 and ends 2/5/2024. Must be resident of NV&#44; 18 years or older to enter. To enter&#44; visit a participating Verizon retail store.  Limit ONE entry per person & per email address. Odds depend on # of eligible entries received. Approximate retail value of all prizes&#58; $10&#44;000. Click here for Official Rules and participating locations. Sponsor&#58; Verizon Services Corp.&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
           <br></br>
           <br></br>
           Gift with Purchase Offer valid only at participating locations. While supplies last. Void where prohibited. Open to U.S. residents 18+. Limit one offer per person or account. Scan QR code&#44; click here or see onsite representative for complete Terms & Conditions&#44; including participating locations and offer period. SPONSOR&#58; Verizon Wireless&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
           <br></br>
           <br></br>
-          The NFL Entities shall have no liability or responsibility for any claim arising in connection with participation in this Sweepstakes or any prize awarded. The NFL Entities have not offered or sponsored this sweepstakes in any way. Sponsor&#58; Verizon Services Corp.&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.</span>
+          The NFL Entities shall have no liability or responsibility for any claim arising in connection with participation in this Sweepstakes or any prize awarded. The NFL Entities have not offered or sponsored this sweepstakes in any way. Sponsor&#58; Verizon Services Corp.&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.</p>
         </div>
 
     </main>

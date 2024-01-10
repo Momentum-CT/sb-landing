@@ -56,7 +56,7 @@ h2 {
   line-height: calc(30px + 1vw);
 }
 
-p {
+h3 {
   font-size: calc(12px + .5vw);
   font-family: VerizonFont;
   color: white;
@@ -64,12 +64,12 @@ p {
   line-height: calc(20px + .1vw);
 }
 
-span {
+p {
   color: #939393;
-  font-size: calc(4pt + 1.5vw);
+  font-size: calc(8px + .5vw);
   font-family: VerizonFont;
   font-weight: lighter;
-  line-height: 10px;
+  line-height: calc(8px + .5vw);
 }
 
 .btn {
