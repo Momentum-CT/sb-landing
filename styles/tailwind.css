@@ -45,7 +45,7 @@ h1 {
   font-family: VerizonBold;
   color: white;
   font-weight: bold;
-  line-height: 30px;
+  line-height: calc(30px + 1vw);
 }
 
 h2 {
@@ -53,15 +53,15 @@ h2 {
   font-family: VerizonBold;
   color: white;
   font-weight: bold;
-  line-height: 30px;
+  line-height: calc(30px + 1vw);
 }
 
 p {
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + 1vw);
   font-family: VerizonFont;
   color: white;
   font-weight: lighter;
-  line-height: 20px;
+  line-height: calc(20px + .8vw);
 }
 
 span {
