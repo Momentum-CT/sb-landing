@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
         {/* <div class="w-full flex flex-col w-full justify-around sm:flex-row justify-center items-center sm:pt-12"> */}
-        <div class="w-full justify-around px-2 sm:flex flex-row justify-center items-center sm:pt-2 sm:pl-6 lg:pl-20">
+        <div class="w-full px-2 sm:flex flex-row justify-center items-center sm:pt-2 sm:pl-6 lg:pl-20">
           <div id="sponsors" className="flex flex-wrap justify-center items-center w-full gap-x-8 gap-y-6 pt-12 sm:order-last lg:w-80">
             <img class="w-28 sm:w-44" src="/img/M_VZ_Live.png" />
             <img class="w-28 sm:w-44" src="/img/M_Toyota.png" />
