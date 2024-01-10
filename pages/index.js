@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <main className="flex flex-col items-center min-h-screen px-4 sm:px-0 bg-black">
-        <title>Verizon Super Bowl LVIII</title>
+        {/* <title>Verizon Super Bowl LVIII</title>
         <meta property="og:title" content="Verizon Super Bowl LVIII" key="title" />
 
         <div id="logo" class="absolute left-4 top-3 w-1/2 sm:left-8 md:w-1/4">
@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
         {/* <div class="w-full flex flex-col w-full justify-around sm:flex-row justify-center items-center sm:pt-12"> */}
-        <div class="w-full justify-around px-2 sm:flex flex-row justify-center items-center sm:pt-2 sm:pl-6 md:pl-0">
+        {/* <div class="w-full justify-around px-2 sm:flex flex-row justify-center items-center sm:pt-2 sm:pl-6 md:pl-0">
           <div id="sponsors" className="flex flex-wrap justify-center items-center w-full gap-x-8 gap-y-6 pt-12 sm:order-last lg:w-80">
             <img class="w-28 sm:w-44" src="/img/M_VZ_Live.png" />
             <img class="w-28 sm:w-44" src="/img/M_Toyota.png" />
@@ -86,7 +86,7 @@ export default function Home() {
           <br></br>
           <br></br>
           The NFL Entities shall have no liability or responsibility for any claim arising in connection with participation in this Sweepstakes or any prize awarded. The NFL Entities have not offered or sponsored this sweepstakes in any way. Sponsor&#58; Verizon Services Corp.&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.</span>
-        </div>
+        </div>  */}
 
     </main>
   );
