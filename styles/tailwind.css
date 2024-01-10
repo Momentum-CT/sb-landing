@@ -26,26 +26,26 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@import url(/public/fonts/VerizonNHGeDS-Regular.ttf);
-@import url(/public/fonts/VerizonNHGeDS-Bold.ttf);
+@import url(/public/fonts/VerizonNHGDS-Regular.ttf);
+@import url(/public/fonts/VerizonNHGDS-Bold.ttf);
 
 @font-face {
   font-family: VerizonFont;
-  src: url(/public/fonts/VerizonNHGeDS-Regular.ttf);
+  src: url(/public/fonts/VerizonNHGDS-Regular.ttf);
 }
 
 @font-face {
   font-family: VerizonBold;
-  src: url(/public/fonts/VerizonNHGeDS-Bold.ttf);
+  src: url(/public/fonts/VerizonNHGDS-Bold.ttf);
 }
 
 
 h1 {
-  font-size: calc(1.8rem + 1.5vw);
+  font-size: calc(1.6rem + 1.5vw);
   font-family: VerizonBold;
   color: white;
   font-weight: bold;
-  line-height: 35px;
+  line-height: 30px;
 }
 
 h2 {
@@ -53,15 +53,15 @@ h2 {
   font-family: VerizonBold;
   color: white;
   font-weight: bold;
-  line-height: 35px;
+  line-height: 30px;
 }
 
 p {
-  font-size: calc(1rem + 1.5vw);
+  font-size: calc(12px + 1.5vw);
   font-family: VerizonFont;
   color: white;
   font-weight: lighter;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 span {
@@ -69,8 +69,9 @@ span {
   font-size: calc(4pt + 1.5vw);
   font-family: VerizonFont;
   font-weight: lighter;
+  line-height: 10px;
 }
 
 .btn {
-  @apply text-lg p-3 w-44 font-bold text-black transition duration-300 ease-in-out rounded-full bg-white hover:scale-110;
+  @apply text-base p-3 w-36 font-bold text-black transition duration-300 ease-in-out rounded-full bg-white hover:scale-110;
 }
