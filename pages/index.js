@@ -6,10 +6,10 @@ export default function Home() {
         <meta property="og:title" content="Verizon Super Bowl LVIII" key="title" />
 
         <div id="logo">
-          <img className="w-[60%] md:w-[40%]" src="/img/VZ_SB_Logo.png" alt="Verizon Super Bowl 2024 Logo"/>
+          <img className="w-[60%] md:w-[40%] md:p-4" src="/img/VZ_SB_Logo.png" alt="Verizon Super Bowl 2024 Logo"/>
         </div>
 
-        <div className="px-4 pt-8 pb-6 md:pb-0">
+        <div className="px-4 pt-8 pb-6 md:px-8 md:pb-0">
           <p className="text-4xl font-verizonBold leading-[2.2rem] max-w-[14ch] tracking-wide text-white md:text-7xl md:leading-[4.5rem]">Want tickets to Super Bowl LVIII and other events?</p>
         </div>
 
@@ -24,13 +24,13 @@ export default function Home() {
 
         <div className="hidden border border-[#4c4c4c] w-screen md:flex"/>
 
-        <div className="md:flex md:flex-row-reverse md:justify-between">
+        <div className="md:pt-10 md:px-6 md:flex md:flex-row-reverse md:items-center md:justify-between">
           <div id="tickets" className="">
             <img className="md:hidden" src="/img/M_Tickets.png" alt="Tickets" />
             <img className="hidden md:flex md:flex-col-2" src="/img/D_Tickets.png" alt="Tickets" />
           </div>
 
-          <div className="px-4 py-6 space-y-6 sm:flex flex-col justify-start items-start sm:w-80">
+          <div className="px-4 py-6 space-y-6 sm:flex flex-col justify-start items-start sm:w-80 md:w-[50%]">
             <div id="header2" className="">
               <p className="text-4xl font-verizonBold leading-9 max-w-[15ch] tracking-wide text-white md:text-7xl md:leading-[4.5rem]">Win tickets to Super Bowl LVIII.</p>
             </div>
@@ -49,13 +49,13 @@ export default function Home() {
 
         <div className="hidden border border-[#4c4c4c] w-screen md:flex"/>
 
-        <div className="mt-4 md:flex md:flex-row-reverse md:justify-between">
+        <div className="mt-4 md:flex md:flex-row-reverse md:items-center md:justify-between md:p-6">
           <div id="sponsors" className="">
             <img className="md:hidden" src="/img/M_Sponsors.png" alt="Sponsors" />
-            <img className="hidden md:inline-block" src="/img/D_Sponsors.png" alt="Sponsors" />
+            <img className="hidden md:inline-block md:pr-16" src="/img/D_Sponsors.png" alt="Sponsors" />
           </div>
 
-          <div className="px-4 py-6 space-y-6 sm:flex flex-col justify-start items-start sm:w-80">
+          <div className="px-4 py-6 space-y-6 sm:flex flex-col justify-start items-start sm:w-80 md:w-[50%]">
             <div id="header2" className="">
               <p className="text-4xl font-verizonBold leading-9 max-w-[25ch] tracking-wide text-white md:text-7xl md:leading-[4.5rem]">Attend the biggest Super Bowl LVIII events.</p>
             </div>
