@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: VerizonFont;
+  src: url("../public/fonts/VerizonNHGTX-Regular.ttf");
+}
+
+@font-face {
+  font-family: VerizonBold;
+  src: url("../public/fonts/VerizonNHGDS-Bold.ttf");
+} 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -26,21 +36,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@import url(/public/fonts/VerizonNHGDS-Regular.ttf);
-@import url(/public/fonts/VerizonNHGDS-Bold.ttf);
-
-@font-face {
-  font-family: VerizonFont;
-  src: url(/public/fonts/VerizonNHGDS-Regular.ttf);
-}
-
-@font-face {
-  font-family: VerizonBold;
-  src: url(/public/fonts/VerizonNHGDS-Bold.ttf);
-}
-
-
-h1 {
+/* h1 {
   font-size: calc(1.6rem + 1.5vw);
   font-family: VerizonBold;
   color: white;
@@ -70,8 +66,8 @@ p {
   font-family: VerizonFont;
   font-weight: lighter;
   line-height: calc(8px + .5vw);
-}
+}  */
 
 .btn {
-  @apply text-base p-3 w-36 font-bold text-black transition duration-300 ease-in-out rounded-full bg-white hover:scale-110;
+  @apply p-[10px] text-base font-bold text-black transition duration-300 ease-in-out rounded-full bg-white w-[146px] hover:scale-110;
 }
