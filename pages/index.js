@@ -12,11 +12,11 @@ export default function Home() {
           <img className="w-[60%] xl:w-[25%] xl:pt-8 xl:pl-12" src="/img/VZ_SB_Logo.png" alt="Verizon Super Bowl 2024 Logo"/>
         </div>
 
-        <div className="px-4 pt-8 pb-6 xl:hidden">
+        <div className="px-4 pt-12 pb-6 xl:hidden">
           <p className="text-4xl font-verizonBold leading-[2.2rem] max-w-[14ch] tracking-wide text-white xl:text-7xl xl:leading-[4.5rem]">Want tickets to Super Bowl LVIII and other events?</p>
         </div>
 
-        <div className="hidden xl:absolute xl:inline xl:top-48 xl:px-12 xl:pb-0">
+        <div className="hidden xl:absolute xl:inline xl:top-52 xl:px-12 xl:pb-0 3xl:top-[14rem] 4xl:top-[15rem] 5xl:top-[16rem]">
           <p className="text-7xl font-verizonBold leading-[4.5rem] max-w-[14ch] tracking-wide text-white">Want tickets to Super Bowl LVIII and other<br/>events?</p>
         </div>
 
@@ -58,9 +58,9 @@ export default function Home() {
         <div className="hidden border border-[#4c4c4c] w-full xl:flex"/>
 
         <div className="mt-4 xl:flex xl:flex-row-reverse xl:items-center xl:justify-between xl:pt-24 xl:p-6">
-          <div id="sponsors" className="xl:flex xl:justify-start">
+          <div id="sponsors" className="xl:flex xl:justify-center">
             <img className="xl:hidden" src="/img/M_Sponsors.png" alt="Sponsors" />
-            <img className="hidden xl:inline xl:w-[85%]" src="/img/D_Sponsors.png" alt="Sponsors" />
+            <img className="hidden xl:inline xl:w-[80%]" src="/img/D_Sponsors.png" alt="Sponsors" />
           </div>
 
           <div className="px-4 py-6 space-y-6 sm:flex flex-col justify-start items-start sm:w-80 xl:w-[50%]">
@@ -69,7 +69,7 @@ export default function Home() {
             </div>
 
             <div className="">
-              <p className="text-lg leading-none font-verizonFont opacity-9 max-w-[26ch] text-white sm:text-md xl:text-2xl xl:leading-none xl:max-w-[35ch]">Visit a participating Verizon retail location and make a qualifying purchase to get tickets to NFL&nbsp;Opening Night&#44; Super Bowl Experience and&nbsp;the Verizon Lounge.</p>
+              <p className="text-lg leading-none font-verizonFont opacity-9 max-w-[26ch] text-white sm:text-md xl:text-2xl xl:leading-none xl:max-w-[35ch]">Fans and small business owners, visit a participating Verizon retail location and make a qualifying purchase to get tickets to NFL&nbsp;Opening Night&#44; Super Bowl Experience and&nbsp;the Verizon Lounge.</p>
             </div>
 
             <div className="xl:pt-14">
