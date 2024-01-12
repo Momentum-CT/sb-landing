@@ -24,7 +24,7 @@ export default function Home() {
         </div>
 
         <div className="px-4 py-6">
-          <p className="text-[22px] tracking-wide font-verizonBold text-white sm:text-center sm:py-4 xl:py-8 xl:text-5xl">Here&#39;s how to get them</p>
+          <p className="text-[22px] tracking-wide font-verizonBold text-white sm:text-center sm:py-4 xl:py-6 xl:text-5xl">Here&#39;s how to get them</p>
         </div>
 
         <div className="hidden border border-[#4c4c4c] w-full xl:flex"/>
