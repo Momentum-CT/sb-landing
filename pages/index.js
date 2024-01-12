@@ -14,7 +14,7 @@ export default function Home() {
           <p className="text-4xl font-verizonBold leading-[2.2rem] max-w-[14ch] tracking-wide text-white xl:text-7xl xl:leading-[4.5rem]">Want tickets to Super Bowl LVIII and other events?</p>
         </div>
 
-        <div className="hidden absolute xl:flex xl:top-[16rem] xl:px-12 xl:pb-0">
+        <div className="hidden absolute xl:flex xl:top-48 xl:px-12 xl:pb-0">
           <p className="text-7xl font-verizonBold leading-[4.5rem] max-w-[14ch] tracking-wide text-white">Want tickets to Super Bowl LVIII and other<br/>events?</p>
         </div>
 
