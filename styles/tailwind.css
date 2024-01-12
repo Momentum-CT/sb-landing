@@ -69,5 +69,5 @@ p {
 }  */
 
 .btn {
-  @apply p-[10px] text-base font-bold text-black transition duration-300 ease-in-out rounded-full bg-white w-[146px] hover:scale-110;
+  @apply p-[10px] text-base font-bold text-black transition duration-300 ease-in-out rounded-full bg-white w-[146px] hover:scale-110 xl:text-2xl xl:w-[260px] xl:py-[15px];
 }
