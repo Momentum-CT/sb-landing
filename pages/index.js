@@ -6,7 +6,7 @@ export default function Home() {
         <meta property="og:title" content="Verizon Super Bowl LVIII" key="title" />
 
         <div id="logo">
-          <img className="w-[60%] xl:w-[30%] xl:pt-8 xl:pl-12" src="/img/VZ_SB_Logo.png" alt="Verizon Super Bowl 2024 Logo"/>
+          <img className="w-[60%] xl:w-[25%] xl:pt-8 xl:pl-12" src="/img/VZ_SB_Logo.png" alt="Verizon Super Bowl 2024 Logo"/>
         </div>
 {/* 
         <div className="px-4 pt-8 pb-6 xl:pt-20 xl:px-12 xl:pb-0"> */}
@@ -14,7 +14,7 @@ export default function Home() {
           <p className="text-4xl font-verizonBold leading-[2.2rem] max-w-[14ch] tracking-wide text-white xl:text-7xl xl:leading-[4.5rem]">Want tickets to Super Bowl LVIII and other events?</p>
         </div>
 
-        <div className="hidden absolute xl:flex xl:top-56 xl:px-12 xl:pb-0">
+        <div className="hidden absolute xl:flex xl:top-[16rem] xl:px-12 xl:pb-0">
           <p className="text-7xl font-verizonBold leading-[4.5rem] max-w-[14ch] tracking-wide text-white">Want tickets to Super Bowl LVIII and other<br/>events?</p>
         </div>
 
@@ -24,15 +24,15 @@ export default function Home() {
         </div>
 
         <div className="px-4 py-6">
-          <p className="text-2xl tracking-wide font-verizonBold text-white sm:text-center sm:py-4 xl:py-8 xl:text-5xl">Here&#39;s how to get them</p>
+          <p className="text-[22px] tracking-wide font-verizonBold text-white sm:text-center sm:py-4 xl:py-8 xl:text-5xl">Here&#39;s how to get them</p>
         </div>
 
         <div className="hidden border border-[#4c4c4c] w-full xl:flex"/>
 
-        <div className="xl:pt-20 xl:px-6 xl:flex xl:flex-row-reverse xl:items-center xl:justify-between">
-          <div id="tickets" className="">
+        <div className="xl:pt-24 xl:px-6 xl:flex xl:flex-row-reverse xl:items-center xl:justify-between">
+          <div id="tickets" className="xl:flex xl:justify-center">
             <img className="xl:hidden" src="/img/M_Tickets.png" alt="Tickets" />
-            <img className="hidden xl:flex xl:flex-col-2" src="/img/D_Tickets.png" alt="Tickets" />
+            <img className="hidden xl:inline xl:w-[85%]" src="/img/D_Tickets.png" alt="Tickets" />
           </div>
 
           <div className="px-4 py-6 space-y-6 sm:flex flex-col justify-start items-start sm:w-80 xl:w-[50%]">
@@ -42,7 +42,7 @@ export default function Home() {
             </div>
 
             <div className="">
-              <h3 className="text-xl leading-6 font-verizonFont font-thin max-w-[26ch] text-white xl:text-2xl xl:leading-none  xl:max-w-[30ch]">Visit a participating Verizon retail location to enter to win 2 tickets to Super Bowl LVIII.</h3>
+              <h3 className="text-lg leading-6 font-verizonFont font-thin max-w-[26ch] text-white xl:text-2xl xl:leading-none  xl:max-w-[30ch]">Visit a participating Verizon retail location to enter to win 2 tickets to Super Bowl LVIII.</h3>
             </div>
 
             <div className="xl:pt-14">
@@ -55,10 +55,10 @@ export default function Home() {
 
         <div className="hidden border border-[#4c4c4c] w-full xl:flex"/>
 
-        <div className="mt-4 xl:flex xl:flex-row-reverse xl:items-center xl:justify-between xl:p-6">
-          <div id="sponsors" className="">
+        <div className="mt-4 xl:flex xl:flex-row-reverse xl:items-center xl:justify-between xl:pt-24 xl:p-6">
+          <div id="sponsors" className="xl:flex xl:justify-start">
             <img className="xl:hidden" src="/img/M_Sponsors.png" alt="Sponsors" />
-            <img className="hidden xl:inline-block xl:pr-16" src="/img/D_Sponsors.png" alt="Sponsors" />
+            <img className="hidden xl:inline xl:w-[85%]" src="/img/D_Sponsors.png" alt="Sponsors" />
           </div>
 
           <div className="px-4 py-6 space-y-6 sm:flex flex-col justify-start items-start sm:w-80 xl:w-[50%]">
@@ -67,7 +67,7 @@ export default function Home() {
             </div>
 
             <div className="">
-              <p className="text-xl leading-6 font-verizonFont opacity-9 max-w-[26ch] text-white sm:text-md xl:text-2xl xl:leading-none xl:max-w-[35ch]">Visit a participating Verizon retail location and make a qualifying purchase to get tickets to NFL&nbsp;Opening Night&#44; Super Bowl Experience and&nbsp;the Verizon Lounge.</p>
+              <p className="text-lg leading-none font-verizonFont opacity-9 max-w-[26ch] text-white sm:text-md xl:text-2xl xl:leading-none xl:max-w-[35ch]">Visit a participating Verizon retail location and make a qualifying purchase to get tickets to NFL&nbsp;Opening Night&#44; Super Bowl Experience and&nbsp;the Verizon Lounge.</p>
             </div>
 
             <div className="xl:pt-14">
