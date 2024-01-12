@@ -1,6 +1,9 @@
+import { motion } from "framer-motion";
+
 export default function Home() {
   return (
     <main className="flex flex-col w-full min-h-screen bg-black">
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
       <div className="flex flex-col p-4 sm:mx-auto sm:max-w-[720px] xl:max-w-[1920px] xl:p-0">
         <title>Verizon Super Bowl LVIII</title>
         <meta property="og:title" content="Verizon Super Bowl LVIII" key="title" />
@@ -8,13 +11,12 @@ export default function Home() {
         <div id="logo">
           <img className="w-[60%] xl:w-[25%] xl:pt-8 xl:pl-12" src="/img/VZ_SB_Logo.png" alt="Verizon Super Bowl 2024 Logo"/>
         </div>
-{/* 
-        <div className="px-4 pt-8 pb-6 xl:pt-20 xl:px-12 xl:pb-0"> */}
+
         <div className="px-4 pt-8 pb-6 xl:hidden">
           <p className="text-4xl font-verizonBold leading-[2.2rem] max-w-[14ch] tracking-wide text-white xl:text-7xl xl:leading-[4.5rem]">Want tickets to Super Bowl LVIII and other events?</p>
         </div>
 
-        <div className="hidden absolute xl:flex xl:top-48 xl:px-12 xl:pb-0">
+        <div className="hidden xl:absolute xl:inline xl:top-48 xl:px-12 xl:pb-0">
           <p className="text-7xl font-verizonBold leading-[4.5rem] max-w-[14ch] tracking-wide text-white">Want tickets to Super Bowl LVIII and other<br/>events?</p>
         </div>
 
@@ -98,6 +100,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      </motion.div>
     </main>
   );
 }

@@ -36,38 +36,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-/* h1 {
-  font-size: calc(1.6rem + 1.5vw);
-  font-family: VerizonBold;
-  color: white;
-  font-weight: bold;
-  line-height: calc(30px + 1vw);
-}
-
-h2 {
-  font-size: calc(1rem + 1.5vw);
-  font-family: VerizonBold;
-  color: white;
-  font-weight: bold;
-  line-height: calc(30px + 1vw);
-}
-
-h3 {
-  font-size: calc(12px + .5vw);
-  font-family: VerizonFont;
-  color: white;
-  font-weight: lighter;
-  line-height: calc(20px + .1vw);
-}
-
-p {
-  color: #939393;
-  font-size: calc(8px + .5vw);
-  font-family: VerizonFont;
-  font-weight: lighter;
-  line-height: calc(8px + .5vw);
-}  */
-
 .btn {
   @apply p-[10px] text-base font-bold text-black transition duration-300 ease-in-out rounded-full bg-white w-[146px] hover:scale-110 xl:text-2xl xl:w-[260px] xl:py-[15px];
 }
