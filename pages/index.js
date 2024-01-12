@@ -38,7 +38,7 @@ export default function Home() {
           <div className="px-4 py-6 space-y-6 sm:flex flex-col justify-start items-start sm:w-80 xl:w-[50%]">
             <div id="header2" className="">
               <p className="text-4xl font-verizonBold leading-9 max-w-[15ch] tracking-wide text-white xl:hidden">Win tickets to Super&nbsp;Bowl LVIII.</p>
-              <p className="hidden text-7xl font-verizonBold leading-[4.5rem] tracking-wide text-white xl:inline">Win tickets<br/>to Super&nbsp;Bowl LVIII.</p>
+              <p className="hidden text-7xl font-verizonBold leading-[4.5rem] tracking-wide text-white xl:inline">Win tickets<br/>to Super Bowl LVIII.</p>
             </div>
 
             <div className="">
