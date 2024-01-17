@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+// import samplePDF from "./Documents/TEST.pdf";
 
 export default function Home() {
   return (
@@ -48,9 +49,11 @@ export default function Home() {
             </div>
 
             <div className="xl:pt-14">
-              <button onClick={() => url("")} className="relative btn font-verizonBold">
-                Learn more
-              </button>
+              <a href="{samplePDF}" target="_blank">
+                <button className="relative btn font-verizonBold">
+                  Learn more
+                </button>
+              </a>
             </div>
           </div>
         </div>
