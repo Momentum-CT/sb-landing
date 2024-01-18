@@ -24,17 +24,9 @@ export default function Home() {
             />
           </div>
 
-          <div className="px-4 pt-12 pb-6 xl:hidden">
-            <p className="text-4xl font-verizonBold leading-[2.2rem] max-w-[14ch] tracking-wide text-white xl:text-7xl xl:leading-[4.5rem]">
-              Want tickets to Super Bowl LVIII and other events?
-            </p>
-          </div>
-
-          <div className="hidden xl:absolute xl:inline xl:top-52 xl:px-12 xl:pb-0 3xl:top-[14rem] 4xl:top-[15rem] 5xl:top-[16rem]">
-            <p className="text-7xl font-verizonBold leading-[4.5rem] max-w-[14ch] tracking-wide text-white">
-              Want tickets to Super Bowl LVIII and other
-              <br />
-              events?
+          <div className="px-4 pt-12 pb-6 xl:absolute xl:inline xl:top-52 xl:px-12 xl:pb-0 3xl:top-[10rem] 4xl:top-[11rem] 5xl:top-[12rem]">
+            <p className="text-3xl font-verizonBold leading-[2.2rem] tracking-wide text-white xl:text-7xl xl:leading-[4.5rem]">
+              Hey Las Vegas,<br/>want to win tickets<br/>to Super Bowl LVIII<br/>and other events?
             </p>
           </div>
 
@@ -89,7 +81,7 @@ export default function Home() {
               </div>
 
               <div className="xl:pt-14">
-                <a href="test.pdf" target="_blank">
+                <a href="VZ_SB_LP_Sweeps.pdf" target="_blank">
                   <button className="relative btn font-verizonBold">
                     Learn more
                   </button>
@@ -131,12 +123,11 @@ export default function Home() {
               </div>
 
               <div className="xl:pt-14">
-                <button
-                  onClick={() => url("")}
-                  className="relative btn font-verizonBold"
-                >
-                  Learn more
-                </button>
+                <a href="VZ_SB_LP_GWP.pdf" target="_blank">
+                  <button className="relative btn font-verizonBold">
+                    Learn more
+                  </button>
+                </a>
               </div>
             </div>
           </div>
