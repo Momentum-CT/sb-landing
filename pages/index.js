@@ -81,7 +81,7 @@ export default function Home() {
               </div>
 
               <div className="xl:pt-14">
-                <a href="VZ_SB_LP_Sweeps.pdf" target="_blank">
+                <a href="test.pdf" target="_blank">
                   <button className="relative btn font-verizonBold">
                     Learn more
                   </button>
@@ -123,7 +123,7 @@ export default function Home() {
               </div>
 
               <div className="xl:pt-14">
-                <a href="VZ_SB_LP_GWP.pdf" target="_blank">
+                <a href="test.pdf" target="_blank">
                   <button className="relative btn font-verizonBold">
                     Learn more
                   </button>
