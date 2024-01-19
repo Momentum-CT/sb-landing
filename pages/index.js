@@ -147,7 +147,7 @@ export default function Home() {
               <span className="text-accent2">
               Gift with Purchase{' '}
               </span>
-               Offer valid only at participating locations. While supplies last. Void where prohibited. Open to U.S. residents 18+. Limit one offer per person or account. <a href="">Click here</a> [link to rules] or see onsite representative for complete Terms & Conditions&#44; including participating locations and offer period. SPONSOR: Verizon Wireless&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
+               Offer valid only at participating locations. While supplies last. Void where prohibited. Open to U.S. residents 18+. Limit one offer per person or account. <a href="" target="_blank">Click here</a> or see onsite representative for complete Terms & Conditions&#44; including participating locations and offer period. SPONSOR: Verizon Wireless&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
             </p>
             <p className="hidden text-[16px] leading-none text-accent1 font-verizonFont xl:inline">
               <span className="text-accent2">
@@ -160,7 +160,7 @@ export default function Home() {
               <span className="text-accent2">
               Gift with Purchase{' '}
               </span>
-               Offer valid only at participating locations. While supplies last. Void where prohibited. Open to U.S. residents 18+. Limit one offer per person or account. <a href="">Click here</a> [link to rules] or see onsite representative for complete Terms & Conditions&#44; including participating locations and offer period. SPONSOR: Verizon Wireless&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
+               Offer valid only at participating locations. While supplies last. Void where prohibited. Open to U.S. residents 18+. Limit one offer per person or account. <a href="" target="_blank">Click here</a> or see onsite representative for complete Terms & Conditions&#44; including participating locations and offer period. SPONSOR: Verizon Wireless&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
             </p>
             <div>
               <a href="VZ_SB_Van.pdf" target="_blank"></a>
