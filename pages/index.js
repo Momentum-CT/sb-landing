@@ -196,7 +196,9 @@ export default function Home() {
           </div>
         </div>
       </motion.div>*/}
-      <a href="VZ_SB_Van.pdf" target="_blank"></a>
+      <div>
+        <a href="VZ_SB_Van.pdf" target="_blank"></a>
+      </div>
     </main>
   );
 }
