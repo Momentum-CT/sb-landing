@@ -14,8 +14,7 @@ export default function Home() {
             property="og:title"
             content="Verizon Super Bowl LVIII"
             key="title"
-          /> */}
-          {/* 
+          /> 
           <div id="logo">
             <img
               className="w-[60%] xl:w-[25%] xl:pt-8 xl:pl-12"
