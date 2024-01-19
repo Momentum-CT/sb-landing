@@ -22,7 +22,6 @@ export default function Home() {
               src="/img/VZ_SB_Logo.png"
               alt="Verizon Super Bowl 2024 Logo"
             />
-          </div>
 
           <div className="px-4 pt-12 pb-6 xl:absolute xl:inline xl:top-52 xl:px-12 xl:pb-0 3xl:top-[10rem] 4xl:top-[11rem] 5xl:top-[12rem]">
             <p className="text-3xl font-verizonBold leading-[2.2rem] tracking-wide text-white xl:text-7xl xl:leading-[4.5rem]">
@@ -88,7 +87,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
+           </div>
 
           <div className="hidden border border-[#4c4c4c] w-full xl:flex" />
 
@@ -131,7 +130,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-
+          
           <div id="terms" className="p-4 sm:px-10 xl:pt-12 xl:pb-16">
             <p className="text-[7px] leading-none text-accent1 font-verizonFont xl:hidden">
               <span className="text-accent2">
@@ -191,8 +190,7 @@ export default function Home() {
               NFL Entities have not offered or sponsored this sweepstakes in any
               way. Sponsor&#58; Verizon Services Corp.&#44; One Verizon Way&#44;
               Basking Ridge&#44; NJ 07920.
-            </p> 
-            
+            </p>
           </div>
         </div>
       </motion.div>*/}
