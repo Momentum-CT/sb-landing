@@ -92,17 +92,17 @@ export default function Home() {
 
           <div className="hidden border border-[#4c4c4c] w-full xl:flex" />
 
-          <div className="mt-4 xl:flex xl:flex-row-reverse xl:items-center xl:justify-between xl:pt-24 xl:p-6 bg-red-200">
-            <div id="sponsors" className="flex flex-col xl:flex xl:justify-center bg-blue-200 space-y-2 m-2 w-full mx-auto">
-              <div className="flex bg-green-200 w-full">
+          <div className="mt-4 xl:flex xl:flex-row-reverse xl:items-center xl:justify-between xl:pt-24 xl:p-6">
+            <div id="sponsors" className="flex flex-col xl:flex xl:justify-center space-y-2 m-2 w-full mx-auto">
+              <div className="flex w-full">
                 <div className="flex flex-col items-center justify-start hover:scale-[105%] transition duration-300 ease-in-out">
-                  <img className="w-[60%] bg-orange-200" src="/img/M_OpNight.png" alt="Opening Night" />
+                  <img className="w-[60%]" src="/img/M_OpNight.png" alt="Opening Night" />
                 </div>
                 <div className="flex flex-col items-center justify-start hover:scale-[105%] transition duration-300 ease-in-out">
-                  <img className="w-[70%] bg-pink-400" src="/img/M_Toyota.png" alt="Toyota" />
+                  <img className="w-[70%]" src="/img/M_Toyota.png" alt="Toyota" />
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center bg-yellow-300 hover:scale-[105%] transition duration-300 ease-in-out">
+              <div className="flex flex-col items-center justify-center hover:scale-[105%] transition duration-300 ease-in-out">
                 <img className="max-w-[300px] scale-[50%]" src="/img/VZ_Live Logo.png" alt="Verizon Live" />
               </div>
             </div>
