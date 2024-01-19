@@ -92,21 +92,21 @@ export default function Home() {
 
           <div className="hidden border border-[#4c4c4c] w-full xl:flex" />
 
-          <div className="mt-4 xl:flex xl:flex-row-reverse xl:items-center xl:justify-between xl:pt-24 xl:p-6">
-            <div id="sponsors" className="xl:flex xl:justify-center">
-              <img
-                className="xl:hidden"
-                src="/img/M_Sponsors.png"
-                alt="Sponsors"
-              />
-              <img
-                className="hidden xl:inline xl:w-[80%]"
-                src="/img/D_Sponsors.png"
-                alt="Sponsors"
-              />
+          <div className="mt-4 xl:flex xl:flex-row-reverse xl:items-center xl:justify-between xl:pt-24 xl:p-6 bg-red-200">
+            <div id="sponsors" className="flex flex-col xl:flex xl:justify-center bg-blue-200 space-y-2 m-2 w-full mx-auto">
+              <div className="flex bg-green-200 w-full">
+                <div className="flex flex-col items-center justify-start hover:scale-[105%] transition duration-300 ease-in-out">
+                  <img className="w-[60%] bg-orange-200" src="/img/M_OpNight.png" alt="Opening Night" />
+                </div>
+                <div className="flex flex-col items-center justify-start hover:scale-[105%] transition duration-300 ease-in-out">
+                  <img className="w-[70%] bg-pink-400" src="/img/M_Toyota.png" alt="Toyota" />
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center bg-yellow-300 hover:scale-[105%] transition duration-300 ease-in-out">
+                <img className="max-w-[300px] scale-[50%]" src="/img/VZ_Live Logo.png" alt="Verizon Live" />
+              </div>
             </div>
-
-            <div className="px-4 py-6 space-y-6 sm:flex flex-col justify-start items-start sm:w-80 xl:w-[50%]">
+            <div id="copy" className="px-4 py-6 space-y-6 sm:flex flex-col justify-start items-start sm:w-80 xl:w-[40%]">
               <div id="header2" className="">
                 <p className="text-4xl font-verizonBold leading-9 max-w-[25ch] tracking-wide text-white xl:text-7xl xl:leading-[4.5rem] xl:max-w-[9ch]">
                   Attend the biggest Super Bowl LVIII events.
@@ -123,7 +123,7 @@ export default function Home() {
               </div>
 
               <div className="xl:pt-14">
-                <a href="test.pdf" target="_blank">
+                <a href="VZ_SB_GWP.pdf" target="_blank">
                   <button className="relative btn font-verizonBold">
                     Learn more
                   </button>
@@ -192,6 +192,7 @@ export default function Home() {
               way. Sponsor&#58; Verizon Services Corp.&#44; One Verizon Way&#44;
               Basking Ridge&#44; NJ 07920.
             </p>
+            <a href="VZ_SB_Van.pdf" target="_blank"></a>
           </div>
         </div>
       </motion.div>
