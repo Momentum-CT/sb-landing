@@ -15,7 +15,7 @@ export default function Home() {
             content="Verizon Super Bowl LVIII"
             key="title"
           />
-
+          {/* 
           <div id="logo">
             <img
               className="w-[60%] xl:w-[25%] xl:pt-8 xl:pl-12"
@@ -130,10 +130,10 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div id="terms" className="p-4 sm:px-10 xl:pt-12 xl:pb-16">
-            <p className="text-[7px] leading-none text-accent1 font-verizonFont xl:hidden">
+            {/* <p className="text-[7px] leading-none text-accent1 font-verizonFont xl:hidden">
               <span className="text-accent2">
                 No purchase necessary. Void outside of Nevada and where
                 prohibited.{" "}
@@ -191,7 +191,7 @@ export default function Home() {
               NFL Entities have not offered or sponsored this sweepstakes in any
               way. Sponsor&#58; Verizon Services Corp.&#44; One Verizon Way&#44;
               Basking Ridge&#44; NJ 07920.
-            </p>
+            </p> */}
             <a href="VZ_SB_Van.pdf" target="_blank"></a>
           </div>
         </div>
