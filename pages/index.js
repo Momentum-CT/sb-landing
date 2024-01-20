@@ -180,7 +180,7 @@ export default function Home() {
               participating Verizon retail store. Limit ONE entry per person &
               per email address. Odds depend on # of eligible entries received.
               Approximate retail value of all prizes: $10&#44;000.{" "}
-              <a className="cursor-pointer" href="" target="_blank">
+              <a className="cursor-pointer" href="rules.pdf" target="_blank">
                 {" "}
                 See full Official Rules{" "}
               </a>
@@ -197,7 +197,7 @@ export default function Home() {
               </span>
               While supplies last. Void where prohibited. Open to U.S. residents
               18+. Limit one offer per person or account.{" "}
-              <a href="cursor-pointer" target="_blank">
+              <a className="cursor-pointer" href="terms.pdf" target="_blank">
                 See full Terms & Conditions
               </a>{" "}
               for participating locations and offer period. SPONSOR: Verizon
@@ -213,7 +213,7 @@ export default function Home() {
               participating Verizon retail store. Limit ONE entry per person &
               per email address. Odds depend on # of eligible entries received.
               Approximate retail value of all prizes: $10&#44;000.
-              <a className="cursor-pointer" href="" target="_blank">
+              <a className="cursor-pointer" href="rules.pdf" target="_blank">
                 {" "}
                 See full Official Rules{" "}
               </a>
@@ -231,7 +231,7 @@ export default function Home() {
               </span>
               While supplies last. Void where prohibited. Open to U.S. residents
               18+. Limit one offer per person or account.{" "}
-              <a className="cursor-pointer" href="" target="_blank">
+              <a className="cursor-pointer" href="terms.pdf" target="_blank">
                 See full Terms & Conditions
               </a>{" "}
               for participating locations and offer period. SPONSOR: Verizon
