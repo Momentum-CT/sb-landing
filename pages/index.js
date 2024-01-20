@@ -180,10 +180,13 @@ export default function Home() {
               participating Verizon retail store. Limit ONE entry per person &
               per email address. Odds depend on # of eligible entries received.
               Approximate retail value of all prizes: $10&#44;000.{" "}
-              <a className="cursor-pointer" href="rules.pdf" target="_blank">
-                {" "}
-                See full Official Rules{" "}
-              </a>
+              <a
+                className="underline cursor-pointer"
+                href="rules.pdf"
+                target="_blank"
+              >
+                See full Official Rules
+              </a>{" "}
               for participating locations. Sponsor: Verizon Services Corp.&#44;
               One Verizon Way&#44; Basking Ridge&#44; NJ 07920. The NFL Entities
               shall have no liability or responsibility for any claim arising in
@@ -197,7 +200,11 @@ export default function Home() {
               </span>
               While supplies last. Void where prohibited. Open to U.S. residents
               18+. Limit one offer per person or account.{" "}
-              <a className="cursor-pointer" href="terms.pdf" target="_blank">
+              <a
+                className="underline cursor-pointer"
+                href="terms.pdf"
+                target="_blank"
+              >
                 See full Terms & Conditions
               </a>{" "}
               for participating locations and offer period. SPONSOR: Verizon
@@ -212,11 +219,14 @@ export default function Home() {
               of NV&#44; 18 years or older to enter. To enter&#44; visit a
               participating Verizon retail store. Limit ONE entry per person &
               per email address. Odds depend on # of eligible entries received.
-              Approximate retail value of all prizes: $10&#44;000.
-              <a className="cursor-pointer" href="rules.pdf" target="_blank">
-                {" "}
-                See full Official Rules{" "}
-              </a>
+              Approximate retail value of all prizes: $10&#44;000.{" "}
+              <a
+                className="underline cursor-pointer"
+                href="rules.pdf"
+                target="_blank"
+              >
+                See full Official Rules
+              </a>{" "}
               for participating locations. Sponsor: Verizon Services Corp.&#44;
               One Verizon Way&#44; Basking Ridge&#44; NJ 07920. The NFL Entities
               shall have no liability or responsibility for any claim arising in
@@ -231,14 +241,22 @@ export default function Home() {
               </span>
               While supplies last. Void where prohibited. Open to U.S. residents
               18+. Limit one offer per person or account.{" "}
-              <a className="cursor-pointer" href="terms.pdf" target="_blank">
+              <a
+                className="underline cursor-pointer"
+                href="terms.pdf"
+                target="_blank"
+              >
                 See full Terms & Conditions
               </a>{" "}
               for participating locations and offer period. SPONSOR: Verizon
               Wireless&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
             </p>
             <div>
-              <a href="VZ_SB_Van.pdf" target="_blank"></a>
+              <a
+                className="cursor-pointer"
+                href="VZ_SB_Van.pdf"
+                target="_blank"
+              ></a>
             </div>
           </div>
         </div>
