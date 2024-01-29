@@ -207,15 +207,16 @@ export default function Home() {
               >
                 See full Terms & Conditions
               </a>{" "}
-              for participating locations and offer period.{" "}
+              for participating locations and offer period. SPONSOR: Verizon Wireless&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
+              <br></br>
+              <br></br>
               <a
                 className="underline cursor-pointer"
                 href="https://www.verizon.com/about/privacy/"
                 target="_blank"
               >
-                See full Privacy Policy.
-              </a>{" "}
-              SPONSOR: Verizon Wireless&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
+                Privacy Policy
+              </a>
             </p>
             <p className="hidden text-[16px] leading-none text-accent1 font-verizonFont xl:inline">
               <span className="text-accent2">
@@ -255,15 +256,16 @@ export default function Home() {
               >
                 See full Terms & Conditions
               </a>{" "}
-              for participating locations and offer period.{" "}
+              for participating locations and offer period. SPONSOR: Verizon Wireless&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
+              <br></br>
+              <br></br>
               <a
                 className="underline cursor-pointer"
                 href="https://www.verizon.com/about/privacy/"
                 target="_blank"
               >
-                See full Privacy Policy.
-              </a>{" "}
-              SPONSOR: Verizon Wireless&#44; One Verizon Way&#44; Basking Ridge&#44; NJ 07920.
+                Privacy Policy
+              </a>
             </p>
             <div>
               <a
